@@ -5,7 +5,7 @@ import Home from './routes/Home'
 import Navigation from './components/Navigation';
 import Detail from './routes/Detail';
 
-function Main(){
+function App(){
    return(
      <HashRouter>
        <Navigation />
@@ -15,4 +15,4 @@ function Main(){
      </HashRouter>
    )
 }
-export default Main;
+export default App;
